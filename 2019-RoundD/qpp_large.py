@@ -3,7 +3,10 @@ import copy
 import pprint as pp
 from functools import reduce
 import math
-#突破点在于 偶xor偶=偶 参考了https://blog.csdn.net/liufengwei1/article/details/97616117 c++ 
+'''
+突破点在于 偶xor偶=偶 参考了https://blog.csdn.net/liufengwei1/article/details/97616117 c++ 
+官方analysis里的Van Emde Boas Trees 暂时还没睬 以后有机会学学
+'''
 #第一次RE了 因为自己定义的odd_idx 在新添加一个元素后 后面的元素没办法实时update
 #接下来TLE了 因为list.remove(value) 实际的复杂度是O(n)
 #接下来又RE了 因为list.pop(idx) 没改过来 写成了list.pop(value)
