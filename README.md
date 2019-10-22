@@ -1,10 +1,10 @@
 # Kickstart
 Records my programs when participating Google's kickstart competition
 
-Round          Score  Rank
+        Round   Score    Rank
 
-Round D 2019   27     600 
+        2019D    27      600 
 
-Round F 2019   46     257
+        2019F    46      257
 
-Round G 2019   80     256
+        2019G    80      256
