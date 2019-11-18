@@ -8,3 +8,5 @@ Records my programs when participating Google's kickstart competition
         2019F    46      257
 
         2019G    80      256
+        
+        2019H    52      242
