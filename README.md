@@ -1,5 +1,5 @@
 # Kickstart
-Records my programs when participating Google's kickstart competition
+Records my programs when participating Google's kickstart competition(https://codingcompetitions.withgoogle.com/kickstart)
 
         Round   Score    Rank
 
