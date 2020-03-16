@@ -54,13 +54,33 @@ vector<int> m[100015];
 int main(){
     ios_base::sync_with_stdio(0);
     cin>>T;
-    fto(it,0,T){
+    for (int it=0; it<T; it++){
 
         cin>>n>>q;
         cin>>s;
         clr(f[0],0);
         ans = 0;
-    
+        fto(i,0,n){
+            fto(j,0,26)
+                f[i+1][j] = f[i][j] ^ (s[i] == j+'A');
+            //f[i][s[i]-'A'] = (f[i-1][s[i]-'A']+1)%2;
+        }
+        fto(i,0,q){
+            cin>>l;cin>>r;
+            l--;
+            cnt = 0;
+            fto(j,0,26){
+                cnt += f[r][j] ^ f[l][j];
+                //if ((l==0 && f[r][j]==1)|| f[r][j]!=f[l-1][j])
+                //    cnt++;
+            }
+            if (cnt<=1){
+                //cout<<l<<r<<endl;
+                ans ++; 
+            }
+        }
+
+        
         cout << "Case #" << it + 1 << ": "<<ans<<endl;
     }
 }
