@@ -5,7 +5,7 @@ Records my programs when participating Google's kickstart competition(https://co
         
         2018A    41      NA(Practice)
 
-        2018B    31      NA(Practice)
+        2018B    7       493/753
         
         2019D    27      600/1866 
 
