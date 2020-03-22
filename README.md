@@ -3,7 +3,7 @@ Records my programs when participating Google's kickstart competition(https://co
 
         Round   Score    Rank
         
-        2018A    41      NA(Practice)
+        2018A    41      NA(Practice in 2020)
 
         2018B    7       493/753
         
