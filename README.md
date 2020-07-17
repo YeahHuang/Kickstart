@@ -20,6 +20,10 @@ Below is the summary of the competitions I participated.
         
         2020B    60      2803/9355      30.0%
         
+        2020C    43      2318/10105     22.94%
+        
+        2020D    55      892/8252       10.81%
+        
 Keep Calm and Geek On.
         
    
